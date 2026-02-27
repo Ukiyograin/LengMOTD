@@ -1,0 +1,20 @@
+name: LengMOTD
+version: 1.0.0
+main: shaziawa.LengMOTD.LengMOTD
+api-version: '1.21'
+description: Customizable MOTD plugin with player list support
+author: shazi_awa
+
+commands:
+  lengmotd:
+    description: Manage LengMOTD plugin
+    aliases: [lmotd, motd]
+    usage: /<command> [reload|wh|playerlist|setplayerlist|setmaxplayers|list|help]
+
+permissions:
+  lengmotd.admin:
+    description: Allows managing LengMOTD plugin
+    default: op
+  lengmotd.whitelist.bypass:
+    description: Allows joining in maintenance mode
+    default: op

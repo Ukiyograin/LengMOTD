@@ -1,0 +1,42 @@
+# LengMOTD 配置文件
+motd:
+  yi:
+    motd1: "&3 >> ColorFulCraft &6Beta 4.0.1   &d(*^▽^*) 584937263"
+    motd2: " &8 正见空江明月来，云水苍茫失江路  "
+  er:
+    motd1: "&3 >> ColorFulCraft &6Beta 4.0.1   &d(｀ﾍ´)=3 584937263"
+    motd2: " &8 有情芍药含春泪，无力蔷薇卧晓枝 "
+  san:
+    motd1: "&3 >> ColorFulCraft &6Beta 4.0.1   &d(*╹▽╹*) 584937263"
+    motd2: " &8 今宵绝胜无人共，卧看星河尽意明 "
+
+settings:
+  # MOTD 设置
+  cycling: true
+  cycle-delay-ticks: 20
+  
+  # 服务器设置
+  max-players: 2026
+  
+  # 维护模式
+  whitelist-mode: false
+  maintenance-kick-message: "&c服务器正在维护中"
+  
+  # 自定义玩家列表
+  use-custom-player-list: true
+  custom-player-list: "CFC Powered by UKiyograin"
+  
+  # 玩家悬停文本（鼠标悬浮在在线人数上时显示）
+  player-hover-texts:
+    - "&bPowered by UKiyograin"
+    
+hitokoto:
+  enabled: true  # 是否启用一言功能
+  color: '&b'
+  cache-time: 30000  # 缓存时间（毫秒）
+  api-url: "https://v1.hitokoto.cn/"  # API地址
+  category: ""  # 分类（空为随机） 
+  #可选：a(动画), b(漫画), c(游戏), d(文学), e(原创), f(来自网络), g(其他), h(影视), i(诗词), j(网易云), k(哲学), l(抖机灵)
+  fallback-texts:  # 备用文本（API失败时使用）
+    - "> 人生如逆旅，我亦是行人"
+    - "> 山重水复疑无路，柳暗花明又一村"
